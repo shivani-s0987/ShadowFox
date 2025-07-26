@@ -1,0 +1,4 @@
+friends = ["Anurag", "Ramya", "Supriya", "Monika", "Pooja"]
+name_length= [(name, len(name)) for name in friends]
+print("List of (Name, Length):")
+print(name_length)
